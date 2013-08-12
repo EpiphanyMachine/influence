@@ -46,25 +46,34 @@ body
 .clear
   clear both
 
-.inline
-  display inline
+.btn-combined-left
+  border-top-right-radius 0 !important
+  border-bottom-right-radius 0 !important
+
+.btn-combined-right
+  border-top-left-radius 0 !important
+  border-bottom-left-radius 0 !important
+  border-left 0
 
 ////////////////////
 // Header Styles  //
 ////////////////////
 
 header
-  padding 0 2rem
-  width 100%
+  padding 0 10rem 0 2rem
   border-bottom 0.1rem solid black
   height 4rem
   vertical-align middle
   margin-top 1rem
   .icon-edit
-    margin-right -0.5rem
-
+    margin-left 2rem
+    line-height 3rem
+  input
+    line-height 2rem !important
+    height 2rem !important
 
 .button-nav
+  margin 0
   padding 0.5rem
   font-size 1rem
   height 2rem
@@ -72,9 +81,10 @@ header
 
 input.title
   border 0
-  font-size xx-large
-  height 100%
-  min-width: 100%
+  font-size 2rem
+  line-height 2rem
+  height 2rem
+  width 25rem
 
 ////////////////////
 // Footer Styles  //
